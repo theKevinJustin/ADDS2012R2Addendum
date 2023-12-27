@@ -1,7 +1,7 @@
 # ADDS2012R2Addendum
 Microsoft.Windows.Server.AD.2012R2.Monitoring.Addendum v1.0.4.5
 
-Download here
+Download [here](https://github.com/theKevinJustin/ADDS2012R2Addendum/blob/main/Microsoft.Windows.Server.AD.2012R2.Monitoring.Addendum.xml)
 
 ### Microsoft Windows Server ADDS 2012R2 Monitoring Addendum - 
 Management pack configures rules/monitors, disables noisy rules, adds alert cleanup, summary report, team report, on-demand tasks, and lastly service recovery automation
