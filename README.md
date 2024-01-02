@@ -1,5 +1,5 @@
 # ADDS2012R2Addendum
-Microsoft.Windows.Server.AD.2012R2.Monitoring.Addendum v1.0.4.5
+Microsoft.Windows.Server.AD.2012R2.Monitoring.Addendum v1.0.4.6
 
 Download [here](https://github.com/theKevinJustin/ADDS2012R2Addendum/blob/main/Microsoft.Windows.Server.AD.2012R2.Monitoring.Addendum.xml)
 
@@ -10,6 +10,7 @@ Blog [https://kevinjustin.com/blog/2023/08/18/adds-addendum-packs/](https://kevi
 
 # Version History:
 ```
+v1.0.4.6   4 Jan 2024 Verified Resolution State logic improvements for large environments
 v1.0.4.5  21 Dec 2023 Updated with agnostic pack updates, whitespace, group policy, reset monitor and closure logic
 v1.0.2.6  18 Jul 2023 Updated reports to informational
 v1.0.2.4  10 Jun 2022 Added Group Policy alerts, AD Team report, variables, agent check, override ID's, separated cleanup and reports
