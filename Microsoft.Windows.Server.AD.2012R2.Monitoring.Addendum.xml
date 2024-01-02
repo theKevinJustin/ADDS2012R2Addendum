@@ -2,7 +2,7 @@
   <Manifest>
     <Identity>
       <ID>Microsoft.Windows.Server.AD.2012R2.Monitoring.Addendum</ID>
-      <Version>1.0.4.5</Version>
+      <Version>1.0.4.6</Version>
     </Identity>
     <Name>Microsoft Windows Server AD 2012R2 Monitoring Addendum</Name>
     <References>
@@ -65,7 +65,7 @@
                 </Scheduler>
               </DataSource>
               <ProbeAction ID="PA" TypeID="Windows!Microsoft.Windows.PowerShellPropertyBagTriggerOnlyProbe">
-                <ScriptName>Proactive.DailyTasks.ADDS2012R2Alerts.Close.Script.DataSource.v1045.ps1</ScriptName>
+                <ScriptName>Proactive.DailyTasks.ADDS2012R2Alerts.Close.Script.DataSource.v1046.ps1</ScriptName>
                 <ScriptBody>
 #=================================================================================
 #  Script to gather ADDS 2012R2 alerts and close via on demand task
@@ -79,7 +79,7 @@
 #=================================================================================
 # Assign script name variable for use in event logging.
 # ScriptName should be the same as the ID of the module that the script is contained in
-$ScriptName = "Proactive.DailyTasks.ADDS2012R2Alerts.Close.Script.DataSource.v1045.ps1"
+$ScriptName = "Proactive.DailyTasks.ADDS2012R2Alerts.Close.Script.DataSource.v1046.ps1"
 $EventID = "550"
 #=================================================================================
 
@@ -434,7 +434,7 @@ $momapi.LogScriptEvent($ScriptName,$EventID,0,"`n Script Completed. `n Script Ru
                 </Scheduler>
               </DataSource>
               <ProbeAction ID="PA" TypeID="Windows!Microsoft.Windows.PowerShellPropertyBagTriggerOnlyProbe">
-                <ScriptName>Proactive.DailyTasks.ADDSAlerts.SummaryReport.Script.Alert.DataSource.v1045.ps1</ScriptName>
+                <ScriptName>Proactive.DailyTasks.ADDSAlerts.SummaryReport.Script.Alert.DataSource.v1046.ps1</ScriptName>
                 <ScriptBody>
 #=================================================================================
 #  Script to gather ADDS alerts and close via on demand task
@@ -448,7 +448,7 @@ $momapi.LogScriptEvent($ScriptName,$EventID,0,"`n Script Completed. `n Script Ru
 #=================================================================================
 # Assign script name variable for use in event logging.
 # ScriptName should be the same as the ID of the module that the script is contained in
-$ScriptName = "Proactive.DailyTasks.ADDSAlerts.SummaryReport.Script.Alert.DataSource.v1045.ps1"
+$ScriptName = "Proactive.DailyTasks.ADDSAlerts.SummaryReport.Script.Alert.DataSource.v1046.ps1"
 $EventID = "552"
 #=================================================================================
 
@@ -967,7 +967,7 @@ $momapi.LogScriptEvent($ScriptName,$EventID,0,"Script Completed. `n Script Runti
                 </Scheduler>
               </DataSource>
               <ProbeAction ID="PA" TypeID="Windows!Microsoft.Windows.PowerShellPropertyBagTriggerOnlyProbe">
-                 <ScriptName>Proactive.Microsoft.Windows.Server.Addendum.AD.2012R2.Reports.Datasource.v1045.ps1</ScriptName>
+                 <ScriptName>Proactive.Microsoft.Windows.Server.Addendum.AD.2012R2.Reports.Datasource.v1046.ps1</ScriptName>
                 <ScriptBody>
 #=================================================================================
 #  Script to gather ADDS alerts for team daily report
@@ -981,7 +981,7 @@ $momapi.LogScriptEvent($ScriptName,$EventID,0,"Script Completed. `n Script Runti
 #=================================================================================
 # Assign script name variable for use in event logging.
 # ScriptName should be the same as the ID of the module that the script is contained in
-$ScriptName = "Proactive.Microsoft.Windows.Server.Addendum.AD.2012R2.Reports.Datasource.v1045.ps1"
+$ScriptName = "Proactive.Microsoft.Windows.Server.Addendum.AD.2012R2.Reports.Datasource.v1046.ps1"
 $EventID = "563"
 #=================================================================================
 
@@ -2198,7 +2198,7 @@ $momapi.LogScriptEvent($ScriptName,$EventID,0,"`n Script Completed. `n Script Ru
                 </Scheduler>
               </DataSource>
               <ProbeAction ID="PA" TypeID="Windows!Microsoft.Windows.PowerShellPropertyBagTriggerOnlyProbe">
-                <ScriptName>Proactive.DailyTasks.ADDSAlerts.2012R2.GroupPolicyReport.Script.Alert.DataSource.v1045.ps1</ScriptName>
+                <ScriptName>Proactive.DailyTasks.ADDSAlerts.2012R2.GroupPolicyReport.Script.Alert.DataSource.v1046.ps1</ScriptName>
                 <ScriptBody>
 #=================================================================================
 #  Script to gather ADDS GroupPolicyReport alerts and close via on demand task
@@ -2212,7 +2212,7 @@ $momapi.LogScriptEvent($ScriptName,$EventID,0,"`n Script Completed. `n Script Ru
 #=================================================================================
 # Assign script name variable for use in event logging.
 # ScriptName should be the same as the ID of the module that the script is contained in
-$ScriptName = "Proactive.DailyTasks.ADDSAlerts.2012R2.GroupPolicyReport.Script.Alert.DataSource.v1045.ps1"
+$ScriptName = "Proactive.DailyTasks.ADDSAlerts.2012R2.GroupPolicyReport.Script.Alert.DataSource.v1046.ps1"
 $EventID = "552"
 #=================================================================================
 
@@ -2392,7 +2392,7 @@ $momapi.LogScriptEvent($ScriptName,$EventID,0,"`n Script Completed. `n Script Ru
           <Composite>
             <MemberModules>
               <WriteAction ID="PSWA" TypeID="Windows!Microsoft.Windows.PowerShellWriteAction">
-                <ScriptName>Proactive.DailyTasks.ADDS2012R2Alerts.Close.Script.Alert.WA.v1045.ps1</ScriptName>
+                <ScriptName>Proactive.DailyTasks.ADDS2012R2Alerts.Close.Script.Alert.WA.v1046.ps1</ScriptName>
                 <ScriptBody>
 #=================================================================================
 #  Script to gather ADDS alerts and close via on demand task
@@ -2406,7 +2406,7 @@ $momapi.LogScriptEvent($ScriptName,$EventID,0,"`n Script Completed. `n Script Ru
 #=================================================================================
 # Assign script name variable for use in event logging.
 # ScriptName should be the same as the ID of the module that the script is contained in
-$ScriptName = "Proactive.DailyTasks.ADDS2012R2Alerts.Close.Script.Alert.WA.v1045.ps1"
+$ScriptName = "Proactive.DailyTasks.ADDS2012R2Alerts.Close.Script.Alert.WA.v1046.ps1"
 $EventID = "551"
 #=================================================================================
 
@@ -2745,7 +2745,7 @@ $momapi.LogScriptEvent($ScriptName,$EventID,0,"`n Script Completed. `n Script Ru
           <Composite>
             <MemberModules>
               <WriteAction ID="PSWA" TypeID="Windows!Microsoft.Windows.PowerShellWriteAction">
-                <ScriptName>Proactive.DailyTasks.ADDS2012R2Alerts.SummaryReport.Script.Alert.WA.v1045.ps1</ScriptName>
+                <ScriptName>Proactive.DailyTasks.ADDS2012R2Alerts.SummaryReport.Script.Alert.WA.v1046.ps1</ScriptName>
                 <ScriptBody>
 #=================================================================================
 #  Script to gather ADDS alerts and close via on demand task
@@ -2759,7 +2759,7 @@ $momapi.LogScriptEvent($ScriptName,$EventID,0,"`n Script Completed. `n Script Ru
 #=================================================================================
 # Assign script name variable for use in event logging.
 # ScriptName should be the same as the ID of the module that the script is contained in
-$ScriptName = "Proactive.DailyTasks.ADDS2012R2Alerts.SummaryReport.Script.Alert.WA.v1045.ps1"
+$ScriptName = "Proactive.DailyTasks.ADDS2012R2Alerts.SummaryReport.Script.Alert.WA.v1046.ps1"
 $EventID = "553"
 #=================================================================================
 
@@ -3263,7 +3263,7 @@ $momapi.LogScriptEvent($ScriptName,$EventID,0,"Script Completed. `n Script Runti
           <Composite>
             <MemberModules>
               <WriteAction ID="PSWA" TypeID="Windows!Microsoft.Windows.PowerShellWriteAction">
-                <ScriptName>Proactive.Microsoft.Windows.Server.Addendum.AD.2012R2.Reports.WA.v1045.ps1</ScriptName>
+                <ScriptName>Proactive.Microsoft.Windows.Server.Addendum.AD.2012R2.Reports.WA.v1046.ps1</ScriptName>
                 <ScriptBody>
 #=================================================================================
 #  Script to gather ADDS alerts for team daily report
@@ -3277,7 +3277,7 @@ $momapi.LogScriptEvent($ScriptName,$EventID,0,"Script Completed. `n Script Runti
 #=================================================================================
 # Assign script name variable for use in event logging.
 # ScriptName should be the same as the ID of the module that the script is contained in
-$ScriptName = "Proactive.Microsoft.Windows.Server.Addendum.AD.2012R2.Reports.WA.v1045.ps1"
+$ScriptName = "Proactive.Microsoft.Windows.Server.Addendum.AD.2012R2.Reports.WA.v1046.ps1"
 $EventID = "564"
 #=================================================================================
 
@@ -5109,7 +5109,7 @@ $momapi.LogScriptEvent($ScriptName,$EventID,0,"Script Completed. `n Script Runti
       <Recovery ID="Microsoft.Windows.Server.2012R2.AD.Configuration.GroupPolicy.Monitor.Recovery.Task" Accessibility="Public" Enabled="true" Target="MWSA2D!Microsoft.Windows.Server.2012.R2.AD.DomainControllerRole" Monitor="MWSA2M!Microsoft.Windows.Server.2012.R2.AD.Configuration.GroupPolicy.Monitor" ResetMonitor="true" ExecuteOnState="Warning" Remotable="true" Timeout="300">
         <Category>Custom</Category>
 		<WriteAction ID="PSWA" TypeID="Windows!Microsoft.Windows.PowerShellWriteAction">
-		  <ScriptName>Microsoft.Windows.Server.2012R2.AD.Configuration.GroupPolicy.Monitor.Recovery.Task.v1045.ps1</ScriptName>
+		  <ScriptName>Microsoft.Windows.Server.2012R2.AD.Configuration.GroupPolicy.Monitor.Recovery.Task.v1046.ps1</ScriptName>
 		  <ScriptBody>
 #=================================================================================
 #  Script to identify group policy failures
@@ -5126,7 +5126,7 @@ $momapi.LogScriptEvent($ScriptName,$EventID,0,"Script Completed. `n Script Runti
 #=================================================================================
 # Assign script name variable for use in event logging.
 # ScriptName should be the same as the ID of the module that the script is contained in
-$ScriptName = "Microsoft.Windows.Server.2012R2.AD.Configuration.GroupPolicy.Monitor.Recovery.Task.v1045.ps1"
+$ScriptName = "Microsoft.Windows.Server.2012R2.AD.Configuration.GroupPolicy.Monitor.Recovery.Task.v1046.ps1"
 $EventID = "552"
 #=================================================================================
 
@@ -5312,6 +5312,7 @@ write-host "Script Completed. Script Runtime: ($ScriptTime) seconds."
         <DisplayString ElementID="Microsoft.Windows.Server.AD.2012R2.Monitoring.Addendum">
           <Name>Microsoft Windows Server ADDS 2012R2 Monitoring Addendum</Name>
           <Description>
+v1.0.4.6   4 Jan 2024 Verified Resolution State logic improvements for large environments
 v1.0.4.5  21 Dec 2023 Updated with agnostic pack updates, whitespace, group policy, reset monitor and closure logic
 v1.0.2.6  18 Jul 2023 Updated reports to informational
 v1.0.2.4  10 Jun 2022 Added Group Policy alerts, AD Team report, variables, agent check, override ID's, separated cleanup and reports
